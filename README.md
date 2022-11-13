@@ -65,11 +65,10 @@ gcc -masm=intel \
     -S -o ./logic.s
 ```
 Код на ассемблере отдельно скомпилирован и проходит тесты:
->[Снимок экрана от 2022-11-13 20-41-22.png](img/Снимок экрана от 2022-11-13 20-41-22.png)
-
-<br>
-![Снимок экрана от 2022-10-23 20-40-27](https://user-images.githubusercontent.com/76088544/197407297-ec6192e4-f3fc-4746-b064-0f0a877e04ce.png)
-![Снимок экрана от 2022-10-23 20-40-37](https://user-images.githubusercontent.com/76088544/197407300-abf78410-5a68-4159-92c8-31c0267661b9.png)
+>![asm1](img/asm1.png)
+>![res1](img/res1.png)
+>![asm2](img/asm2.png)
+>![res2](img/res2.png)
 
 * Ввод через аргументы командной строки реализован
 * Локальные переменные использованы
@@ -82,8 +81,8 @@ gcc -masm=intel \
 *     Оптимизировано использование регистров процессора (r12d := N1, r13d := N2)
 
 Тесты модифицированного кода:
-![Снимок экрана от 2022-10-23 21-47-27](https://user-images.githubusercontent.com/76088544/197410151-4ffa62e2-5d5e-410a-8b7e-32d218c3e010.png)
-![Снимок экрана от 2022-10-23 20-39-55](https://user-images.githubusercontent.com/76088544/197407293-1b8aabf4-b768-47b7-8c4b-bd44188e12ef.png)
+>![asm_mod1](img/asm_mod1.png)
+>![res1](img/res1.png)
 
-![Снимок экрана от 2022-10-23 21-47-46](https://user-images.githubusercontent.com/76088544/197410163-59f60266-8369-483b-abcb-8f8d5e63396c.png)
-![Снимок экрана от 2022-10-23 20-40-37](https://user-images.githubusercontent.com/76088544/197407300-abf78410-5a68-4159-92c8-31c0267661b9.png)
+>![asm_mod2](img/asm_mod2.png)
+>![res2](img/res2.png)
